@@ -13,7 +13,7 @@ import {
   PhoneCall,
   Sparkles,
 } from 'lucide-react'
-import { NavTab, Language, FarmerProfile } from '../types'
+import type { NavTab, Language, FarmerProfile } from '../types'
 import { getTranslation } from '../i18n/translations'
 
 interface SidebarProps {

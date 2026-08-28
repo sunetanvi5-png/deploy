@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { X, Calculator, IndianRupee, Truck, ShieldAlert, Sparkles, Check, ArrowUpRight } from 'lucide-react'
-import { Language } from '../types'
+import type { Language } from '../types'
 import { getTranslation } from '../i18n/translations'
 
 interface NetProfitModalProps {

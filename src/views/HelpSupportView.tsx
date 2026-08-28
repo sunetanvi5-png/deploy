@@ -13,7 +13,7 @@ import {
   FileText,
   AlertTriangle,
 } from 'lucide-react'
-import { Language } from '../types'
+import type { Language } from '../types'
 import { getTranslation } from '../i18n/translations'
 import { nearbyWarehouses } from '../data/mockData'
 

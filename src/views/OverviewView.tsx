@@ -16,7 +16,7 @@ import {
   ShieldCheck,
   PlusCircle,
 } from 'lucide-react'
-import {
+import type {
   Language,
   ProduceListing,
   MandiPrice,

@@ -1,6 +1,6 @@
 import React from 'react'
 import { X, Bell, TrendingUp, ShoppingBag, CheckCircle, CloudRain, Check } from 'lucide-react'
-import { NotificationItem, Language } from '../types'
+import type { NotificationItem, Language } from '../types'
 import { getTranslation } from '../i18n/translations'
 
 interface NotificationModalProps {

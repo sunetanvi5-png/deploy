@@ -13,7 +13,7 @@ import {
   Calculator,
   Trash2,
 } from 'lucide-react'
-import { Language, ProduceListing, NavTab } from '../types'
+import type { Language, ProduceListing, NavTab } from '../types'
 import { getTranslation } from '../i18n/translations'
 
 interface ProduceViewProps {

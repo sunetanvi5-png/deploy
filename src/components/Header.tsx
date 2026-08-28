@@ -8,7 +8,7 @@ import {
   PlusCircle,
   TrendingUp,
 } from 'lucide-react'
-import { NavTab, Language, NotificationItem, FarmerProfile } from '../types'
+import type { NavTab, Language, NotificationItem, FarmerProfile } from '../types'
 import { getTranslation } from '../i18n/translations'
 
 interface HeaderProps {

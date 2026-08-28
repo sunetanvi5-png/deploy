@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react'
+import { useState } from 'react'
 import './App.css'
-import {
+import type {
   Language,
   NavTab,
   ProduceListing,
@@ -44,9 +44,6 @@ import {
   Volume2,
   CheckCircle,
   ChevronDown,
-  ShieldCheck,
-  PhoneCall,
-  Sparkles,
 } from 'lucide-react'
 
 export function App() {

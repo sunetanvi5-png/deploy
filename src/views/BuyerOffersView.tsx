@@ -13,7 +13,7 @@ import {
   Star,
   XCircle,
 } from 'lucide-react'
-import { Language, BuyerOffer, NavTab } from '../types'
+import type { Language, BuyerOffer, NavTab } from '../types'
 import { getTranslation } from '../i18n/translations'
 
 interface BuyerOffersViewProps {

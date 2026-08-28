@@ -1,4 +1,4 @@
-import { MandiPrice, ProduceListing, BuyerOffer, OrderTransaction } from '../types'
+import type { MandiPrice, ProduceListing, BuyerOffer, OrderTransaction } from '../types'
 import { initialMandiPrices, initialProduceListings, initialBuyerOffers, initialOrders } from '../data/mockData'
 
 const API_BASE = 'http://localhost:4000/api'

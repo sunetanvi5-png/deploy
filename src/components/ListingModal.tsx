@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { X, Sprout, CheckCircle2, Sparkles, AlertCircle, MapPin } from 'lucide-react'
-import { Language, ProduceListing } from '../types'
+import type { Language, ProduceListing } from '../types'
 import { getTranslation } from '../i18n/translations'
 
 interface ListingModalProps {

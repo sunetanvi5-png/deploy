@@ -13,7 +13,7 @@ import {
   MapPin,
   FileCheck,
 } from 'lucide-react'
-import { Language, FarmerProfile } from '../types'
+import type { Language, FarmerProfile } from '../types'
 import { getTranslation } from '../i18n/translations'
 
 interface SettingsViewProps {

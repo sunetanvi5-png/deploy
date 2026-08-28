@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { X, CheckCircle, ArrowRightLeft, ShieldCheck, IndianRupee, AlertCircle, Building2 } from 'lucide-react'
-import { Language, BuyerOffer } from '../types'
+import type { Language, BuyerOffer } from '../types'
 import { getTranslation } from '../i18n/translations'
 
 interface OfferActionModalProps {

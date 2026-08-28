@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { X, Send, Phone, ShieldCheck, Mic, Sparkles } from 'lucide-react'
-import { Language, BuyerOffer, ChatMessage } from '../types'
+import type { Language, BuyerOffer } from '../types'
 import { getTranslation } from '../i18n/translations'
 
 interface ChatDrawerProps {

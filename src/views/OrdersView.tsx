@@ -13,7 +13,7 @@ import {
   Printer,
   Sparkles,
 } from 'lucide-react'
-import { Language, OrderTransaction, FarmerProfile } from '../types'
+import type { Language, OrderTransaction, FarmerProfile } from '../types'
 import { getTranslation } from '../i18n/translations'
 
 interface OrdersViewProps {

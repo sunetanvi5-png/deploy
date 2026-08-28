@@ -11,7 +11,7 @@ import {
   Layers,
   ChevronRight,
 } from 'lucide-react'
-import { Language, MandiPrice } from '../types'
+import type { Language, MandiPrice } from '../types'
 import { getTranslation } from '../i18n/translations'
 
 interface MarketPricesViewProps {
